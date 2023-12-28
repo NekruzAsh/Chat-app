@@ -4,6 +4,7 @@ import React from "react";
 import Navbar from "./components/Navbar.jsx";
 import {auth} from "./firebase.js";
 import {useAuthState} from "react-firebase-hooks/auth";
+import Chat from "./components/chat.jsx";
 
 const style = {
   appContainer: `max-w-[728px] mx-auto`,
@@ -23,6 +24,9 @@ export default function Home() {
 
 
         {/*Chat component*/}
+
+        <Chat />
+
 
     </section>
 
