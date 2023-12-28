@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import Message from "./message.jsx";
 import { db } from "../firebase.js";
 import {query, collection, orderBy, onSnapshot} from "firebase/firestore";
+import SendMes from "./send.jsx";
 
 const style = {
   wrapper: `flex flex-col p-[10px] relative`,
@@ -33,6 +34,7 @@ const chat = () => {
      
       </div>
       {/*Send Message*/}
+        <SendMes scroll={scroll} />
       <span ref={scroll}></span>
     </>
   );
