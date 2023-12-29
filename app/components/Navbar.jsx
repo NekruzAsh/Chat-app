@@ -5,9 +5,9 @@ import Signin from "./signin.jsx";
 import Logout from "./logout.jsx";
 
 const style = {
-  nav: `w-full h-16 bg-indigo-500 flex justify-between items-center`,
+  nav: `h-20 bg-indigo-500 flex justify-between items-center p-4`,
   heading: `text-white text-2xl font-bold ml-2`,
-  rightContent: `flex items-center mr-2`
+  
 }
 
 const Navbar = () => {
@@ -18,9 +18,9 @@ const Navbar = () => {
   return (
     <div className={style.nav}>
       <h1 className={style.heading}>ChatMingle</h1>
-      <div className={style.rightContent}>
+      
         {user ? <Logout /> : <Signin />} 
-      </div>
+      
     </div>
   )
 }

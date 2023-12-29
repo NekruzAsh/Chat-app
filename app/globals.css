@@ -6,29 +6,12 @@ html {
   scroll-behavior: smooth;
 }
 
-@layer base {
-  
-
-  body{
-    background: url('/images/bgimage.jpg') no-repeat center center fixed;
-    min-height: 100vh;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-
-
-  body {
-    @apply  text-[#222222] tracking-wide
-  }
-
-
-  li{
-
-    @apply cursor-pointer
-
-  }
-
-
+body{
+  background: url('/images/bgimage.jpg') no-repeat center center fixed;
+  min-height: 100vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+

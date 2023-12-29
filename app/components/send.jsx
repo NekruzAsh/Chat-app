@@ -30,9 +30,9 @@ const send = ({scroll}) => {
     }
 
     return (
-        <form onSubmit={send} className='fixed h-14 w-full max-w-[728px] flex text-xl bottom-0'>
+        <form onSubmit={send} className='fixed bottom-10 h-14 w-full max-w-[728px] flex text-xl'>
                 <input value={input} onChange={(e) => setInput(e.target.value)} className="w-full text-xl p-3 text-white outline-none border-none rounded-lg mb-2" type="text" placeholder='Message'/>
-                <button type='submit' className="btn md:btn-md w-[100px] h-[40px] text-white hover:bg-indigo-700">Send</button>
+                <button type='submit' className="btn md:btn-md w-[20%]  text-white hover:bg-indigo-700">Send</button>
         </form>
     )
 }

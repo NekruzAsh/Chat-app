@@ -4,8 +4,8 @@ import {auth} from '../firebase.js'
 const style = {
     name: `absolute mt-[-4rem] text-gray-800 text-xs`,
     message: `flex items-center shadow-xl m-4 py-2 px-3 rounded-tl-full rounded-tr-full`,
-    sent: `flex flex-col items-end shadow-xl m-4 py-2 px-3 rounded-tl-full rounded-tr-full`,
-    received: `flex flex-col items-start shadow-xl m-4 py-2 px-3 rounded-tl-full rounded-tr-full`,
+    sent: ` bg-indigo-800 text-white flex-row-reverse text-end float-right rounded-bl-full`,
+    received: `bg-pink-600 text-white float-left rounded-br-full`,
 }
 
 const message = ({message}) => {
