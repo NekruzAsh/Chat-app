@@ -6,7 +6,7 @@ import Logout from "./logout.jsx";
 
 const style = {
   nav: `h-20 bg-indigo-500 flex justify-between items-center p-4`,
-  heading: `text-white text-2xl font-bold ml-2`,
+  heading: `text-gray-800 text-2xl font-bold ml-2`,
   
 }
 
