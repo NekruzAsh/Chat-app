@@ -1,4 +1,9 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+# What I learned 
+
+* Managing different Firebase utilities like Firestore database to store and retrieve user data and messages.
+* Implementing different user authentication techniques to ensure safety and security of the website.
+* Using React hooks to manage the state of the application.
 
 ## Getting Started
 
